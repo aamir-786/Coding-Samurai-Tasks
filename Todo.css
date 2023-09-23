@@ -1,0 +1,98 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkcyan;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 360px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 0px 10px rgba(246, 240, 240, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: #051f1f;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.inputs {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px; /* Slightly increased padding for better input height */
+    border: 2px solid #06b9b9;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    height: 48px; /* Increased button height for better clickability */
+    background-color: #06b9b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px; /* Slightly increased font size for button text */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #048181;
+}
+
+.text ul {
+    background-color: rgba(5, 31, 31, 0.9);
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    text-align: left;
+    border-radius: 5px;
+    list-style: none;
+    margin: 0;
+    padding-left: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Added subtle box shadow for depth */
+}
+
+.text ul i {
+    float: right;
+    cursor: pointer;
+}
+
+/* Added a transition for the task completion effect */
+.text ul.completed {
+    background-color: rgba(5, 31, 31, 0.6);
+    text-decoration: line-through;
+    color: #999;
+    transition: background-color 0.3s ease, text-decoration 0.3s ease, color 0.3s ease;
+}
+/* Style for the delete icon */
+.delete-icon {
+    margin-left: 10px;
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Change the cursor to a pointer when hovering over the delete icon */
+.delete-icon:hover {
+    color: #d32f2f; /* Darker red color on hover */
+}
