@@ -1,7 +1,7 @@
 /* Reset default margin and padding */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 3px;
+    padding: 1px;
     box-sizing: border-box;
 }
 
