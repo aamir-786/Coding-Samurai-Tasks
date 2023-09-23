@@ -1,2 +1,3 @@
-# Coding-Samurai-Tasks
-Intern at Coding Samurai
+# TO DO LIST APP
+Task from Coding Samurai 
+Intern at Coding Samurai 
